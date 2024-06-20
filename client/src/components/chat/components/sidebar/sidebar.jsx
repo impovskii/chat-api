@@ -16,7 +16,7 @@ const Sidebar = ({socket}) => {
 
     return (
         <div className={styles.sidebar}>
-            <h4 className={styles.header}>Users</h4>
+            <h4 className={styles.header}>Пользователи</h4>
             <ul className={styles.users}>
                 {filteredList.map(element => (
                     <li key={element.socketID}>{element.user}</li>
